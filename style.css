@@ -1,0 +1,176 @@
+body{
+    background-color: black;
+}
+.container{
+    border: 5px #10e5d2 solid;
+    width: 700px;
+    height: 311px;
+    margin: auto;
+    margin-top: 160px;
+    border-radius: 20px;
+}
+.box1{
+    height: 50px;
+    width: 200px;
+    border: 3px #10e5d2 solid;
+    position: absolute;
+    right: 783px;
+    top: 109px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.box2{
+    height: 50px;
+    width: 200px;
+    border: 3px #10e5d2 solid;
+    position: absolute;
+    right: 580px;
+    top: 109px;
+    border-radius: 10px;
+}
+.box3{
+    height: 50px;
+    width: 200px;
+    border: 3px #10e5d2 solid;
+    position: absolute;
+    right: 377px;
+    top: 109px;
+    border-radius: 10px;
+}
+.box1 h1{
+    color: #000000;
+    padding-left: 62px;
+    margin: 0px;
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: monospace;
+}
+.box2 h1{
+    color: #10e5d2;
+    padding-left: 45px;
+    margin: 0px;
+    padding-top: 10px;
+}
+.box3 h1{
+    color: #10e5d2;
+    padding-left: 49px;
+    margin: 0px;
+    padding-top: 10px;
+}
+.container .box .date{
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+}
+.container .box .date h1{
+    color: white;
+    font-size: 20px;
+    padding: 0px 5px;
+}
+.container .box .author{
+    float: right;
+    display: inline-block;
+    border: #10e5d2 2px solid;
+    margin: 12px;
+    border-radius: 20px;
+}
+.container .box .author h1{
+    color: white;
+    font-family: monospace;
+    padding: 0px 15px;
+}
+.container .box .time{
+    display: inline-block;
+    position: absolute;
+    top: 430px;
+    left: 349px;
+}
+.container .box .time h1{
+    color: white;
+    font-size: 22px;
+    margin: 0px;
+}
+.container .teams{
+    width: 540px;
+    height: 200px;
+    position: absolute;
+    top: 215px;
+    left: 415px;
+}
+.container .teams .team1{
+    width: 45%;
+    display: inline-block;
+    height: 100%;
+}
+.container .teams .team2{
+    display: inline-block;
+    float: right;
+    height: 100%;
+    width: 45%;
+}
+.container .teams .team1 img{
+
+    height: 80px;
+    position: absolute;
+    left: 20px;
+    top: 25%;
+
+}
+.container .teams .team2 img{
+    height: 80px;
+    position: absolute;
+    right: 20px;
+    top: 25%;
+}
+.container .teams .team1 h1{
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    color: white;
+    left: 109px;
+    font-family: cursive;
+}
+.container .teams .team2 h1{
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    color: white;
+    right: 109px;
+    font-family: cursive;
+}
+.container .teams .bet{
+    position: absolute;
+    top: 28px;
+    right: 260px;
+}
+.container .teams .bet h1{
+    color: #10e5d2;
+    font-size: 50px;
+}
+.container .buttons{
+    display: inline-block;
+    margin-top: 140px;
+    margin-left: 90px;
+}
+.container .buttons ul{
+
+}
+.container .buttons li{
+    display: inline-block;
+    padding: 5px 0px;
+    border: 1px #10e5d2 solid;
+    border-radius: 15px;
+    margin: 2px;
+}
+.container .buttons a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+}
+
+
+
+
+
+
